@@ -1,0 +1,166 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* General Styles */
+.container {
+	display: flex;
+}
+
+html,
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	font-weight: 500;
+}
+
+span {
+	color: #ec9849;
+}
+
+img {
+	width: 64px;
+	height: 64px;
+}
+
+/* Navbar */
+#navbar {
+	background: #2b2b2b;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+
+#navbar h1 {
+	margin-left: 6rem;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	margin-right: 6rem;
+}
+
+li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	padding: 1rem;
+	text-decoration: none;
+}
+
+a:link {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: #ec9849;
+	background: #3b3b3b;
+}
+
+/* Section 1 */
+#section-1 {
+	background: url("/images/section-1_bread.jpg") no-repeat center center/cover;
+	height: 80vh;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#section-1 h1,
+#section-1 p {
+	margin-bottom: 1rem;
+}
+
+#section-1 h1 {
+	font-size: 3rem;
+}
+
+#section-1 button {
+	background: #2c2c2c;
+	border: none;
+	padding: 0.8rem;
+	font-size: 1rem;
+	font-weight: inherit;
+	color: inherit;
+}
+
+/* Section 2 */
+#section-2 {
+	height: 70vh;
+}
+
+#section-2 #img {
+	width: 50%;
+	background: url("/images/section-2_bread.jpg") no-repeat center center/cover;
+}
+
+#section-2 .container {
+	background: #2c2c2c;
+	width: 50%;
+	box-sizing: border-box;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+}
+
+#section-2 .container h2,
+#section-2 .container p {
+	margin-bottom: 2rem;
+}
+
+#section-2 .container button {
+	background: white;
+	border: none;
+	padding: 0.8rem;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+/* Section 3 */
+#section-3 {
+	height: 60vh;
+	color: black;
+}
+
+#section-3 .container {
+	width: 33%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
+}
+
+#section-3 .container .container {
+	width: 100%;
+}
+
+#section-3 .container .container img {
+	margin-bottom: 0.6rem;
+}
+
+#colored-bg {
+	background-color: #ec9849;
+}
+
+/* Footer */
+#footer {
+	height: 10vh;
+	background: #2b2b2b;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
